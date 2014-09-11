@@ -1,7 +1,7 @@
 <?php
 session_start();
 
-if ($_POST['usuario']=='26888105' && $_POST['contrasenya']=='TiRa4Lofresc0'){
+if ($_POST['usuario']==$usuario && $_POST['contrasenya']==$contrasenya){
        	   $_SESSION['zezion']="OK";
 		   }
 if ($_SESSION['zezion'] !== "OK"){
