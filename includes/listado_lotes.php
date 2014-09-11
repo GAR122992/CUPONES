@@ -20,6 +20,7 @@ $sql = "SELECT * FROM ".$DB_lotes."";
     <td>".$newArray['descripcion']."</td>
     <td>".$newArray['cantusos']." usos</td>
     <td>".$newArray['procentaje']."%</td>
+	<td>".$newArray['custom_rule']."</td>
     <td>".$newArray['cantcodigos']."</td>
     <td><a href='cupones.php?id=".$newArray['id']."&amp;nombre=".urlencode($newArray['nombre'])."' class='caji ver'>ver</a></td>
     <td><a href='eliminar.php?id=".$newArray['id']."' class='caji eliminar'>eliminar</a></td>

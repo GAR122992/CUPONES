@@ -1,4 +1,4 @@
-<?php
+﻿<?php
 //ABRIR CONEXION//
 	if (mysqli_connect_errno()) {
 	printf("Connect failed: %s", mysqli_connect_error());
@@ -16,5 +16,5 @@ mysqli_query($mysqli,"DELETE FROM ".$DB_cupones." WHERE id_lote=".$id_lote."");
 	
 	
 //header("Location: lotes.php");
-$imprimir.="<p>borrado con �xito</p>";
+$imprimir.="<p>borrado con éxito</p>";
 ?>

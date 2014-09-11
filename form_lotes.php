@@ -1,4 +1,4 @@
-<?php
+﻿<?php
 
 ////IMPRIMIR
 include_once("includes/arriba.php");
@@ -13,7 +13,7 @@ $imprimir.="
 <input name='nombre' type='text' /><br />
 
 
-<label>Descripci�n</label><br />
+<label>Descripción</label><br />
 <input name='descripcion' type='text' size='60' /><br />
 
 <label>Cantidad de usos por cup&oacute;n</label>
@@ -24,6 +24,11 @@ $imprimir.="
 <br />
 <input name='procentaje' type='text' size='3' />
  %<br />
+ 
+ <label>Función custom</label>
+<br />
+<input name='custom_rule' type='text' />
+ <br />
 
 <label>Cantidad c&oacute;digos</label>
 a generar<br />

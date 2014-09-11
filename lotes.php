@@ -1,4 +1,4 @@
-<?php
+﻿<?php
 include_once("includes/config.php");
 include_once("includes/funciones_mias.php");
 
@@ -17,6 +17,7 @@ $imprimir.="
     <td>Descripci&oacute;n</td>
     <td>Cant. Usos</td>
     <td>% descuento</td>
+	 <td>Función custom</td>
     <td>Cantidad C&oacute;digos</td>
     <td>Ver</td>
     <td>Eliminar?</td>

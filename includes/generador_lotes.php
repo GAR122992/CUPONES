@@ -20,13 +20,14 @@ CREATE TABLE IF NOT EXISTS `'.$DB_lotes.'` (
 `descripcion` varchar(255) NOT NULL,
 `cantusos` int(11) NOT NULL,
 `procentaje` int(11) NOT NULL,
+`custom_rule` varchar(255) NOT NULL,
 `cantcodigos` int(11) NOT NULL,
 PRIMARY KEY (`id`)
 ) ENGINE=InnoDB  DEFAULT CHARSET=utf8 AUTO_INCREMENT=0 ;
 ');
 	}
 
-	$sql="INSERT INTO ".$DB_lotes." (nombre, descripcion, cantusos, procentaje, cantcodigos) VALUES ('$_POST[nombre]','$_POST[descripcion]','$_POST[cantusos]','$_POST[procentaje]','$_POST[cantcodigos]')";
+	$sql="INSERT INTO ".$DB_lotes." (nombre, descripcion, cantusos, procentaje,custom_rule, cantcodigos) VALUES ('$_POST[nombre]','$_POST[descripcion]','$_POST[cantusos]','$_POST[procentaje]','$_POST[custom_rule]','$_POST[cantcodigos]')";
 	$res = mysqli_query($mysqli, $sql);//or die("Error: consulta primera items");
 	
 
